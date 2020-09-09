@@ -22,14 +22,14 @@
   ⎥        /docker-key.pem
   ⎥
   ⎥–– data/traefik.toml
-  ⎥       /traefik.config.toml
+          /traefik.config.toml
 ```
 
 ---
 
 ### labels to use with next containers
 
-> replace values `app_name`, `container_port`, `network_name`
+> replace values `<app_name>`, `<container_port>`, `<network_name>`
 
 ```dockerfile
     labels:
